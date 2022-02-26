@@ -26,7 +26,7 @@ font pango:Courier 6
 #exec sudo swapon /dev/sda4 
 
 #Adding the private_backup script to upload the configs to github.
-#exec sh ~/Scripts/config_private.sh
+exec sh ~/Scripts/config_private.sh
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -323,3 +323,8 @@ mode "$mode_gaps_left" {
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
+
+
+
+
+#Adding other stuffs
