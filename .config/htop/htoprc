@@ -2,7 +2,7 @@
 # The parser is also very primitive, and not human-friendly.
 htop_version=3.1.2
 config_reader_min_version=2
-fields=0 48 17 18 38 39 40 2 46 47 49 1
+fields=2 0 48 17 18 38 39 40 2 46 47 49 1
 sort_key=46
 sort_direction=-1
 tree_sort_key=0
@@ -37,8 +37,8 @@ color_scheme=6
 enable_mouse=1
 delay=15
 hide_function_bar=0
-header_layout=two_33_67
-column_meters_0=Tasks Systemd NetworkIO DiskIO
-column_meter_modes_0=2 2 2 2
-column_meters_1=Zram Memory AllCPUs
-column_meter_modes_1=1 1 1
+header_layout=two_67_33
+column_meters_0=AllCPUs Memory Zram
+column_meter_modes_0=1 1 1
+column_meters_1=Tasks Systemd NetworkIO DiskIO
+column_meter_modes_1=2 2 2 2
