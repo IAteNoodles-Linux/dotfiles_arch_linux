@@ -58,12 +58,16 @@ Plug 'SirVer/ultisnips'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'tpope/vim-surround'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-git'
+Plug 'tpope/vim-unimpaired'
+Plug 'jacoborus/tender.vim'
+Plug 'whatyouhide/vim-gotham'
 call plug#end()
 
 "Setting up line numbering"
@@ -81,11 +85,18 @@ set autoindent
 set smartindent
 set smarttab
 
+"Setting up last status"
+set laststatus=2
+
 "Setting up encodting to utf8"
 set encoding=utf-8
 
 "Setting up vim font to a Meslo Nerd Font"
 set guifont=FiraCode\ Nerd\ Font\ Mono\ for\ Powerline:h12
 
+"Setting up colorscheme"
 
-"Testing"
+
+"Setting up Python Syntax Highling"
+let g:python_highlight_all = 1
+let g:python_highlight_builtins = 1
