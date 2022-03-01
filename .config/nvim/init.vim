@@ -89,4 +89,3 @@ set guifont=FiraCode\ Nerd\ Font\ Mono\ for\ Powerline:h12
 
 
 "Testing"
-
