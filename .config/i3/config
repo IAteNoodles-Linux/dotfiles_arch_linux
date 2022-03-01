@@ -38,7 +38,7 @@ exec --no-startup-id megasync
 exec --no-startup-id numlockx
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
-exec --no-startup-id feh --bg-scale ~/Downloads/Pictures/Wallpapers/River.jpg
+
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -341,7 +341,7 @@ gaps left 0
 # Running scripts from Scripts/*
 exec --no-startup-id sh ~/Scripts/dotfiles_script.sh
 # Need to make one first
-#exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
+exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
 exec --no-startup-id sh ~/Scripts/polkit_load.sh
 
 
