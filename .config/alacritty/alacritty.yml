@@ -757,7 +757,7 @@ mouse:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-#key_bindings:
+key_bindings:
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
@@ -784,6 +784,12 @@ mouse:
   #- { key: D,      mods: Control,       mode: Vi|~Search, action: ScrollHalfPageDown      }
   #- { key: Y,                           mode: Vi|~Search, action: Copy                    }
   #- { key: Y,                           mode: Vi|~Search, action: ClearSelection          }
+  #Additional: Paste
+  #
+  - { key: V,       mods: Shift,         mode: Vi|~Search, action: Paste
+  }
+  #
+  #Additional: Paste
   #- { key: Copy,                        mode: Vi|~Search, action: ClearSelection          }
   #- { key: V,                           mode: Vi|~Search, action: ToggleNormalSelection   }
   #- { key: V,      mods: Shift,         mode: Vi|~Search, action: ToggleLineSelection     }
@@ -868,7 +874,7 @@ mouse:
   #- { key: F,              mods: Command, mode: ~Search,     action: SearchForward         }
   #- { key: B,              mods: Command, mode: ~Search,     action: SearchBackward        }
 
-#debug:
+debug:
   # Display the time it takes to redraw each frame.
   #render_timer: false
 
@@ -884,7 +890,7 @@ mouse:
   #   - Info
   #   - Debug
   #   - Trace
-  #log_level: Warn
+  log_level: Debug
 
   # Print all received window events.
-  #print_events: false
+  print_events: true
