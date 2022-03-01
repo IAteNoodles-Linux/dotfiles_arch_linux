@@ -12,7 +12,7 @@
 
 set $mod Mod4
 # You can also use any non-zero value if you'd like to have a border
-for_window [class=".*"] border normal 10
+for_window [class=".*"] border normal 0
 for_window [class=".*"] border pixel 0
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -26,9 +26,6 @@ font pango:Courier 6
 #exec sudo swapon --a
 #exec swapon /dev/sda4
 #exec sudo swapon /dev/sda4 
-
-#Adding the private_backup script to upload the configs to github.
-#exec sh ~/Scripts/config_private.sh
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -229,96 +226,96 @@ mode "$mode_gaps" {
 }
 
 mode "$mode_gaps_outer" {
-        bindsym plus  gaps outer current plus 5
-        bindsym minus gaps outer current minus 5
+        bindsym plus  gaps outer current plus 0 
+        bindsym minus gaps outer current minus 0
         bindsym 0     gaps outer current set 0
 
-        bindsym Shift+plus  gaps outer all plus 5
-        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+plus  gaps outer all plus 0
+        bindsym Shift+minus gaps outer all minus 0
         bindsym Shift+0     gaps outer all set 0
 
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
 mode "$mode_gaps_inner" {
-        bindsym plus  gaps inner current plus 5
-        bindsym minus gaps inner current minus 5
+        bindsym plus  gaps inner current plus 0
+        bindsym minus gaps inner current minus 0
         bindsym 0     gaps inner current set 0
 
-        bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+plus  gaps inner all plus 0
+        bindsym Shift+minus gaps inner all minus 0
         bindsym Shift+0     gaps inner all set 0
 
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
 mode "$mode_gaps_horiz" {
-        bindsym plus  gaps horizontal current plus 5
-        bindsym minus gaps horizontal current minus 5
+        bindsym plus  gaps horizontal current plus 0
+        bindsym minus gaps horizontal current minus 0
         bindsym 0     gaps horizontal current set 0
 
-        bindsym Shift+plus  gaps horizontal all plus 5
-        bindsym Shift+minus gaps horizontal all minus 5
+        bindsym Shift+plus  gaps horizontal all plus 0
+        bindsym Shift+minus gaps horizontal all minus 0
         bindsym Shift+0     gaps horizontal all set 0
 
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
 mode "$mode_gaps_verti" {
-        bindsym plus  gaps vertical current plus 5
-        bindsym minus gaps vertical current minus 5
+        bindsym plus  gaps vertical current plus 0
+        bindsym minus gaps vertical current minus 0
         bindsym 0     gaps vertical current set 0
 
-        bindsym Shift+plus  gaps vertical all plus 5
-        bindsym Shift+minus gaps vertical all minus 5
+        bindsym Shift+plus  gaps vertical all plus 0
+        bindsym Shift+minus gaps vertical all minus 0
         bindsym Shift+0     gaps vertical all set 0
 
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
 mode "$mode_gaps_top" {
-        bindsym plus  gaps top current plus 5
-        bindsym minus gaps top current minus 5
+        bindsym plus  gaps top current plus 0
+        bindsym minus gaps top current minus 0
         bindsym 0     gaps top current set 0
 
-        bindsym Shift+plus  gaps top all plus 5
-        bindsym Shift+minus gaps top all minus 5
+        bindsym Shift+plus  gaps top all plus 0
+        bindsym Shift+minus gaps top all minus 0
         bindsym Shift+0     gaps top all set 0
 
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
 mode "$mode_gaps_right" {
-        bindsym plus  gaps right current plus 5
-        bindsym minus gaps right current minus 5
+        bindsym plus  gaps right current plus 0
+        bindsym minus gaps right current minus 0
         bindsym 0     gaps right current set 0
 
-        bindsym Shift+plus  gaps right all plus 5
-        bindsym Shift+minus gaps right all minus 5
+        bindsym Shift+plus  gaps right all plus 0
+        bindsym Shift+minus gaps right all minus 0
         bindsym Shift+0     gaps right all set 0
 
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
 mode "$mode_gaps_bottom" {
-        bindsym plus  gaps bottom current plus 5
-        bindsym minus gaps bottom current minus 5
+        bindsym plus  gaps bottom current plus 0
+        bindsym minus gaps bottom current minus 0
         bindsym 0     gaps bottom current set 0
 
-        bindsym Shift+plus  gaps bottom all plus 5
-        bindsym Shift+minus gaps bottom all minus 5
+        bindsym Shift+plus  gaps bottom all plus 0
+        bindsym Shift+minus gaps bottom all minus 0
         bindsym Shift+0     gaps bottom all set 0
 
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
 mode "$mode_gaps_left" {
-        bindsym plus  gaps left current plus 5
-        bindsym minus gaps left current minus 5
+        bindsym plus  gaps left current plus 0
+        bindsym minus gaps left current minus 0
         bindsym 0     gaps left current set 0
 
-        bindsym Shift+plus  gaps left all plus 5
-        bindsym Shift+minus gaps left all minus 5
+        bindsym Shift+plus  gaps left all plus 0
+        bindsym Shift+minus gaps left all minus 0
         bindsym Shift+0     gaps left all set 0
 
         bindsym Return mode "$mode_gaps"
@@ -330,16 +327,24 @@ mode "$mode_gaps_left" {
 # Changing the gaps between windows
 gaps inner 10                                                        
 gaps outer 0
-gaps horizontal 10
-gaps vertical 10
-gaps top 10
-gaps right 10
-gaps bottom 10
-gaps left 10
+gaps horizontal 0
+gaps vertical 0
+gaps top 0
+gaps right 0
+gaps bottom 0
+gaps left 0
+
 # Changing the gaps between windows
 
 #-------------------- Additional Stuffs ----------------------#
-#                                                             #
+# Setting up scripts
+# Running scripts from Scripts/*
+exec --no-startup-id sh ~/Scripts/dotfiles_script.sh
+# Need to make one first
+#exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
+exec --no-startup-id sh ~/Scripts/polkit_load.sh
+
+
 ###############################################################
 #                                                             #
 #                                                             #
@@ -359,3 +364,12 @@ for_window [class="Onboard|Yad"] floating enable
 for_window [class="feh|Viewnior|MPlayer"] floating enable
 
 
+## Setting up the rules for the windows
+client.background       #2b3339
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #81A1C1 #81A1C1 #D8DEE9 #a7c080   #81A1C1
+client.focused_inactive #61AFEF #61AFEF #2E3440 #a7c080   #61AFEF
+client.unfocused        #3B4252 #3B4252 #D8DEE9 #a7c080   #3B4252
+client.urgent           #BF616A #BF616A #D8DEE9 #a7c080   #BF616A
+client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
