@@ -365,9 +365,11 @@ gaps left 0
 #-------------------- Additional Stuffs ----------------------#
 # Setting up scripts
 # Running scripts from Scripts/*
-exec --no-startup-id sh ~/Scripts/dotfiles_script.sh
-exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
-exec --no-startup-id sh ~/Scripts/polkit_load.sh
+# All these scripts will be handled by the man script.
+exec_always --no-startup-id sh ~/Scripts/run_scripts.sh
+#exec --no-startup-id sh ~/Scripts/dotfiles_script.sh
+#exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
+#exec --no-startup-id sh ~/Scripts/polkit_load.sh
 
 
 ###############################################################
@@ -426,6 +428,10 @@ bindsym Mod1+n exec nemo
 #
 # Loading dunst
 exec --no-startup-id dunst -config $HOME/.config/dunstrc
+
+# Starting up polkit agent
+exec_always --no-startup-id lxqt-policykit-agent
+
 
 # Dealing with popups
 popup_during_fullscreen smart
