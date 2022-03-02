@@ -56,18 +56,8 @@ endif
 call plug#begin()
 Plug 'SirVer/ultisnips'
 Plug 'vim-airline/vim-airline'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-commentary'
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'tpope/vim-surround'
 Plug 'ryanoasis/vim-devicons'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-abolish'
-Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-git'
-Plug 'tpope/vim-unimpaired'
-Plug 'jacoborus/tender.vim'
-Plug 'whatyouhide/vim-gotham'
 call plug#end()
 
 "Setting up line numbering"
@@ -76,7 +66,7 @@ set numberwidth=4
 set relativenumber
 
 "Setting up tabstop"
-set tabstop=4 
+set tabstop=4
 set shiftwidth=4
 set expandtab
 
@@ -95,7 +85,7 @@ set encoding=utf-8
 set guifont=FiraCode\ Nerd\ Font\ Mono\ for\ Powerline:h12
 
 "Setting up colorscheme"
-
+"Having some issues with it"
 
 "Setting up Python Syntax Highling"
 let g:python_highlight_all = 1

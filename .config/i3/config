@@ -197,10 +197,34 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-	mode	hide
-	hidden_state	hide
-	position	bottom	
+	mode	dock
+#	hidden_state    hide
+	position	top	
+
+# Font set to Meslo Nerd
+    font pango: MesloLGS 8
+
+# Changing the separator_symbol
+    separator_symbol " | "
+
+# Changing the colour
+# Todo
+    colors {
+        background #00000000
+        statusline #ffffffFF
+        separator #666666
+
+        focused_workspace  #4c7899 #285577 #ffffff
+        active_workspace   #333333 #5f676a #ffffff
+        inactive_workspace #333333 #222222 #888888
+        urgent_workspace   #2f343a #900000 #ffffff
+        binding_mode       #2f343a #900000 #ffffff
+    }
+    
+# Transparent bar
+    i3bar_command i3bar --transparency 
 }
+
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -329,7 +353,7 @@ gaps inner 10
 gaps outer 0
 gaps horizontal 0
 gaps vertical 0
-gaps top 0
+gaps top 10
 gaps right 0
 gaps bottom 0
 gaps left 0
@@ -340,7 +364,6 @@ gaps left 0
 # Setting up scripts
 # Running scripts from Scripts/*
 exec --no-startup-id sh ~/Scripts/dotfiles_script.sh
-# Need to make one first
 exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
 exec --no-startup-id sh ~/Scripts/polkit_load.sh
 
@@ -373,3 +396,35 @@ client.focused_inactive #61AFEF #61AFEF #2E3440 #a7c080   #61AFEF
 client.unfocused        #3B4252 #3B4252 #D8DEE9 #a7c080   #3B4252
 client.urgent           #BF616A #BF616A #D8DEE9 #a7c080   #BF616A
 client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
+
+# Mode Launcher
+
+set $mode_launcher Launch: [f]irefox [n]emo
+
+bindsym $mod+o mode "$mode_launcher"
+
+mode "$mode_launcher" {
+    bindsym f exec firefox
+    bindsym n exec nemo
+
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+
+# Loading dunst
+exec --no-startup-id dunst -config $HOME/.config/dunstrc
+
+# Dealing with popups
+popup_during_fullscreen smart
+
+# show the window icon for the focused window to make it stand out
+bindsym $mod+p title_window_icon on
+
+# enable window icons for all windows
+for_window [all] title_window_icon on
+
+# Toggle between hide state and show state
+bindsym $mod+m bar hidden_state toggle
+
+# Toggle between dock mode and hide mode
+bindsym $mod+n bar mode toggle
