@@ -421,7 +421,12 @@ client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
 bindsym Mod1+f exec firefox
 #[N]emo
 bindsym Mod1+n exec nemo
-
+#[R]anger
+bindsym Mod1+r exec ranger
+#[I]tch
+bindsym Mod1+i exec itch
+#[NU]clear
+bindsym Mod1+u exec nuclear
 #
 #
 #
