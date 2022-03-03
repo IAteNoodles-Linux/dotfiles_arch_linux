@@ -428,8 +428,10 @@ bindsym Mod1+i exec itch
 #[NU]clear
 bindsym Mod1+u exec nuclear
 #[K]otogram
+#The telegram client
 bindsym Mod1+k exec kotogram-desktop
 #[W]hatscli
+#The whatsapp client
 bindsym Mod1+w exec whatscli
 #
 #
