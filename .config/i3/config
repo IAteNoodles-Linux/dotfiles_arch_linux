@@ -422,7 +422,7 @@ bindsym Mod1+f exec firefox
 #[N]emo
 bindsym Mod1+n exec nemo
 #[R]anger
-bindsym Mod1+r exec ranger
+bindsym Mod1+r exec "alacritty -e env COLUMNS= LINES= ranger"
 #[I]tch
 bindsym Mod1+i exec itch
 #[NU]clear
