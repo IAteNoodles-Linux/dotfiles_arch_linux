@@ -427,7 +427,10 @@ bindsym Mod1+r exec "alacritty -e env COLUMNS= LINES= ranger"
 bindsym Mod1+i exec itch
 #[NU]clear
 bindsym Mod1+u exec nuclear
-#
+#[K]otogram
+bindsym Mod1+k exec kotogram-desktop
+#[W]hatscli
+bindsym Mod1+w exec whatscli
 #
 #
 #
