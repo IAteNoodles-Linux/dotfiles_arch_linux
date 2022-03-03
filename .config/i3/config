@@ -368,7 +368,7 @@ gaps left 0
 # All these scripts will be handled by the man script.
 exec_always --no-startup-id sh ~/Scripts/run_scripts.sh
 #exec --no-startup-id sh ~/Scripts/dotfiles_script.sh
-#exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
+exec --no-startup-id sh ~/Scripts/wallpapers_script.sh
 #exec --no-startup-id sh ~/Scripts/polkit_load.sh
 
 
