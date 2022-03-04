@@ -211,7 +211,7 @@ bar {
 # Todo
     colors {
         background #00000000
-        statusline #C3A8C7FF
+        statusline #B38FB7FF
         separator #666666
 
         focused_workspace  #DD403A #C3A8C7 #ffffff
