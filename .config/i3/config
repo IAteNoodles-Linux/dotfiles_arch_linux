@@ -423,8 +423,9 @@ bindsym Mod1+f exec firefox
 #[N]emo
 bindsym Mod1+n exec nemo
 
-#[N]eovim
-bindsym Mod1+v exec "alacritty -e nvim"
+#[V]isual Studio Code
+bindsym Mod1+v exec code
+
 
 #[R]anger
 bindsym Mod1+r exec "alacritty -e env COLUMNS= LINES= ranger"
