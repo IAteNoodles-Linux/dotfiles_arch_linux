@@ -433,7 +433,9 @@ bindsym Mod1+k exec kotogram-desktop
 #[W]hatscli
 #The whatsapp client
 bindsym Mod1+w exec "alacritty -e whatscli"
-#
+#[P]assmenu-rs
+#The passmenu-rs client
+bindsym Mod1+p exec passmenu-rs
 #
 #
 # Loading dunst
