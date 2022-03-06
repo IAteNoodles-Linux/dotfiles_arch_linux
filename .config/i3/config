@@ -419,20 +419,30 @@ client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
 
 #[F]irefox 
 bindsym Mod1+f exec firefox
+
 #[N]emo
 bindsym Mod1+n exec nemo
+
+#[N]eovim
+bindsym Mod1+v exec neovim
+
 #[R]anger
 bindsym Mod1+r exec "alacritty -e env COLUMNS= LINES= ranger"
+
 #[I]tch
 bindsym Mod1+i exec itch
+
 #[NU]clear
-bindsym Mod1+u exec nuclear
+#bindsym Mod1+u exec nuclear #Removed
+
 #[K]otogram
 #The telegram client
 bindsym Mod1+k exec kotogram-desktop
+
 #[W]hatscli
 #The whatsapp client
 bindsym Mod1+w exec "alacritty -e whatscli"
+
 #[P]assmenu-rs
 #The passmenu-rs client
 bindsym Mod1+p exec passmenu-rs
