@@ -426,7 +426,6 @@ bindsym Mod1+n exec nemo
 #[V]isual Studio Code
 bindsym Mod1+v exec code
 
-
 #[R]anger
 bindsym Mod1+r exec "alacritty -e env COLUMNS= LINES= ranger"
 
