@@ -1,0 +1,11 @@
+# 1 - Code hightlighting
+theme: emacs
+#
+# 2 - Used for displaying the resultant output
+box_style: MINIMAL_DOUBLE_HEAD
+#
+# 3 - Promt continuation
+promt_continuation: "..."
+#
+# 4 - Start symbol
+promt_start: ">>>"

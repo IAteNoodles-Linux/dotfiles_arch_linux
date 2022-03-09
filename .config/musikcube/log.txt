@@ -1,0 +1,31 @@
+22:10:58 [info] [LOG SESSION] ---------- START ----------
+22:10:58 [info] [PluginFactory] loading plugins
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+22:10:58 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+22:10:58 [info] [Indexer] indexer source -1303229654 running...
+22:10:58 [info] [Indexer] indexer source -1303229654 finished
+22:10:58 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
+22:10:58 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
+22:10:58 [info] [Indexer] scan completed successfully
+22:10:58 [info] [Indexer] cleanup 1/2
+22:10:58 [info] [Indexer] cleanup 2/2
+22:10:58 [info] [Indexer] optimizing
+22:10:58 [info] [Indexer] done!
+22:10:58 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
+22:10:58 [info] [Player] new instance created
+22:10:58 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
+22:10:58 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
+22:10:58 [info] [ffmpegdecoder] parsing data stream...
+22:10:58 [info] [ffmpegdecoder] found audio stream!
+22:10:58 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:10:58 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
+22:10:58 [warning] [ffmpegdecoder] invalid packet detected, discarding.
