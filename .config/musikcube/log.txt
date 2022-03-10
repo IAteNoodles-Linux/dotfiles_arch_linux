@@ -1,83 +1,48 @@
-21:53:22 [info] [LOG SESSION] ---------- START ----------
-21:53:22 [info] [PluginFactory] loading plugins
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-21:53:22 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-21:53:22 [info] [Indexer] indexer source -1303229654 running...
-21:53:22 [info] [Indexer] indexer source -1303229654 finished
-21:53:22 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
-21:53:22 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
-21:53:22 [info] [Indexer] scan completed successfully
-21:53:22 [info] [Indexer] cleanup 1/2
-21:53:22 [info] [Indexer] cleanup 2/2
-21:53:22 [info] [Indexer] optimizing
-21:53:22 [info] [Indexer] done!
-21:53:23 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
-21:53:23 [info] [Player] new instance created
-21:53:23 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
-21:53:23 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
-21:53:23 [info] [ffmpegdecoder] parsing data stream...
-21:53:23 [info] [ffmpegdecoder] found audio stream!
-21:53:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-21:53:23 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Fucked_With_A_Knife.mp3
-21:53:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-21:53:30 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-21:53:30 [info] [Player] new instance created
-21:53:30 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-21:53:30 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-21:53:30 [info] [ffmpegdecoder] parsing data stream...
-21:53:30 [info] [ffmpegdecoder] found audio stream!
-21:53:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-21:53:30 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-21:53:30 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-21:53:31 [info] [Player] new instance created
-21:53:31 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Seven_Nation_Army.mp3
-21:53:31 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Seven_Nation_Army.mp3
-21:53:31 [info] [ffmpegdecoder] parsing data stream...
-21:53:31 [info] [ffmpegdecoder] found audio stream!
-21:53:31 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-21:53:31 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Seven_Nation_Army.mp3
-21:53:31 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-21:53:37 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Seven_Nation_Army.mp3
-21:53:37 [info] [Player] new instance created
-21:53:37 [info] [Stream] opening /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-21:53:37 [info] [LocalFileStream] opening file: /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-21:53:37 [info] [ffmpegdecoder] parsing data stream...
-21:53:37 [info] [ffmpegdecoder] found audio stream!
-21:53:37 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-21:53:37 [info] [Streams] found a decoder for /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-21:53:37 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-21:57:27 [info] [ffmpegdecoder] finished decoding.
-21:57:28 [info] [Player] new instance created
-21:57:28 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Blue__Da_Ba_Dee__-_Piano_Instrumental__Live_.mp3
-21:57:28 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Blue__Da_Ba_Dee__-_Piano_Instrumental__Live_.mp3
-21:57:28 [info] [ffmpegdecoder] parsing data stream...
-21:57:28 [info] [ffmpegdecoder] found audio stream!
-21:57:28 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-21:57:28 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Blue__Da_Ba_Dee__-_Piano_Instrumental__Live_.mp3
-21:57:28 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-21:59:41 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-21:59:41 [info] [Player] new instance created
-21:59:41 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-21:59:41 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-21:59:41 [info] [ffmpegdecoder] parsing data stream...
-21:59:41 [info] [ffmpegdecoder] found audio stream!
-21:59:41 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-21:59:41 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-21:59:41 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-21:59:41 [info] [Player] new instance created
-21:59:41 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
-21:59:41 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
-21:59:41 [info] [ffmpegdecoder] parsing data stream...
-21:59:41 [info] [ffmpegdecoder] found audio stream!
-21:59:41 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-21:59:41 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
-21:59:41 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:03:56 [info] [LOG SESSION] ---------- START ----------
+22:03:56 [info] [PluginFactory] loading plugins
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+22:03:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+22:03:56 [info] [Indexer] indexer source -1303229654 running...
+22:03:56 [info] [Indexer] indexer source -1303229654 finished
+22:03:56 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
+22:03:56 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
+22:03:56 [info] [Indexer] scan completed successfully
+22:03:56 [info] [Indexer] cleanup 1/2
+22:03:56 [info] [Indexer] cleanup 2/2
+22:03:56 [info] [Indexer] optimizing
+22:03:56 [info] [Indexer] done!
+22:03:56 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:56 [info] [Player] new instance created
+22:03:56 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:56 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:56 [info] [ffmpegdecoder] parsing data stream...
+22:03:57 [info] [ffmpegdecoder] found audio stream!
+22:03:57 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:03:57 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:57 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:03:58 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:58 [info] [Player] new instance created
+22:03:58 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:58 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:58 [info] [ffmpegdecoder] parsing data stream...
+22:03:58 [info] [ffmpegdecoder] found audio stream!
+22:03:58 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:03:58 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+22:03:58 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:03:58 [info] [Player] new instance created
+22:03:58 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
+22:03:58 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
+22:03:58 [info] [ffmpegdecoder] parsing data stream...
+22:03:58 [info] [ffmpegdecoder] found audio stream!
+22:03:58 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:03:58 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
+22:03:58 [warning] [ffmpegdecoder] invalid packet detected, discarding.
