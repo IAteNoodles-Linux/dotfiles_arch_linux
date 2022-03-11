@@ -13,9 +13,9 @@ command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
 interval=2
 color=#C9E3DB
 
-[BATTERY]
-command=~/.config/i3blocks/battery/battery_info.sh
-interval=3
+#[BATTERY]
+#command=~/.config/i3blocks/battery/battery_info.sh
+#interval=3
 
 [CPU]
 full_text= CPU:  0.00% @ +00.0°C 
