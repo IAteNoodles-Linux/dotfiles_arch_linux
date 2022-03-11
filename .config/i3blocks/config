@@ -6,7 +6,7 @@
 #command=~/.config/i3blocks/weather/weather_info.sh
 #interval=300
 #color=#FEC925
-#signal=2
+signal=2
 
 [DISK]
 command=df -h / | awk '/\//{ printf(" 💾 %4s/%s \n", $4, $2) }'
@@ -39,5 +39,5 @@ interval=0
 signal=1
 
 [TIME_DATE]
-command=date  
+command=date +" %a, %d %b - %H:%M:%S"
 interval=1
