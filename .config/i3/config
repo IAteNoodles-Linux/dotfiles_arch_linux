@@ -439,8 +439,7 @@ bindsym Mod1+i exec itch
 #[M]ycli
 # Starts mariadb service if it is not running,
 # then starts mycli
-bindsym Mod1+m exec "systemctl start mariadb && mycli"
-
+bindsym Mod1+m exec "systemctl start mariadb && mycli -u IAteNoodles -p $MYSQL_PASSWORD"
 #[NU]clear
 #bindsym Mod1+u exec nuclear #Removed
 
