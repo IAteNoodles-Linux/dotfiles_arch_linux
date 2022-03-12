@@ -1,31 +1,60 @@
-10:03:07 [info] [LOG SESSION] ---------- START ----------
-10:03:07 [info] [PluginFactory] loading plugins
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-10:03:07 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-10:03:07 [info] [Indexer] indexer source -1303229654 running...
-10:03:07 [info] [Indexer] indexer source -1303229654 finished
-10:03:07 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
-10:03:07 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
-10:03:07 [info] [Indexer] scan completed successfully
-10:03:07 [info] [Indexer] cleanup 1/2
-10:03:07 [info] [Indexer] cleanup 2/2
-10:03:07 [info] [Indexer] optimizing
-10:03:07 [info] [Indexer] done!
-10:03:07 [info] [CrossfadeTransport] trying to play /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-10:03:07 [info] [Player] new instance created
-10:03:07 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-10:03:07 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-10:03:07 [info] [ffmpegdecoder] parsing data stream...
-10:03:07 [info] [ffmpegdecoder] found audio stream!
-10:03:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-10:03:07 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
-10:03:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:54:04 [info] [LOG SESSION] ---------- START ----------
+10:54:04 [info] [PluginFactory] loading plugins
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+10:54:04 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+10:54:04 [info] [Indexer] indexer source -1303229654 running...
+10:54:04 [info] [Indexer] indexer source -1303229654 finished
+10:54:04 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
+10:54:04 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
+10:54:04 [info] [Indexer] scan completed successfully
+10:54:04 [info] [Indexer] cleanup 1/2
+10:54:04 [info] [Indexer] cleanup 2/2
+10:54:04 [info] [Indexer] optimizing
+10:54:04 [info] [Indexer] done!
+10:54:07 [info] [GaplessTransport] starting track at /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:07 [info] [Player] new instance created
+10:54:07 [info] [GaplessTransport] stop
+10:54:07 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:07 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:07 [info] [ffmpegdecoder] parsing data stream...
+10:54:07 [info] [ffmpegdecoder] found audio stream!
+10:54:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:54:07 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:54:08 [info] [Player] new instance created
+10:54:08 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Polish_Cow.mp3
+10:54:08 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Polish_Cow.mp3
+10:54:08 [info] [ffmpegdecoder] parsing data stream...
+10:54:08 [info] [ffmpegdecoder] found audio stream!
+10:54:08 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:54:08 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Polish_Cow.mp3
+10:54:08 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:54:16 [info] [GaplessTransport] starting track at /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:16 [info] [Player] new instance created
+10:54:16 [info] [GaplessTransport] stop
+10:54:16 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:16 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:16 [info] [ffmpegdecoder] parsing data stream...
+10:54:16 [info] [ffmpegdecoder] found audio stream!
+10:54:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:54:16 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Ballada_Ekologiczna.mp3
+10:54:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:54:16 [info] [Player] new instance created
+10:54:16 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Polish_Cow.mp3
+10:54:16 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Polish_Cow.mp3
+10:54:16 [info] [ffmpegdecoder] parsing data stream...
+10:54:16 [info] [ffmpegdecoder] found audio stream!
+10:54:16 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:54:16 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Polish_Cow.mp3
+10:54:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:55:08 [info] [GaplessTransport] pause
+11:20:35 [info] [GaplessTransport] stop
