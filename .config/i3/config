@@ -444,6 +444,10 @@ bindsym Mod1+m exec "systemctl start mariadb && alacritty -e mycli -u IAteNoodle
 #The telegram client
 bindsym Mod1+k exec kotogram-desktop
 
+#[MU]sikcube
+#The music player
+bindsym Mod1+m+u exec alacritty -e mocp
+
 #[W]hatscli
 #The whatsapp client
 bindsym Mod1+w exec "alacritty -e whatscli"

@@ -474,3 +474,6 @@ bindsym $mod+m bar hidden_state toggle
 
 # Toggle between dock mode and hide mode
 bindsym $mod+n bar mode toggle
+
+# Loading betterlockscreen
+bindsym $mod+shift+x exec betterlockscreen -l dim
