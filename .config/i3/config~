@@ -401,24 +401,8 @@ client.unfocused        #3B4252 #3B4252 #D8DEE9 #a7c080   #3B4252
 client.urgent           #BF616A #BF616A #D8DEE9 #a7c080   #BF616A
 client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
 
-# Screenshot
-set $mode_launcher Launch: [S]creen [F]ull
-bindsym Mod1+S mode "$mode_launcher"
 
-mode "$mode_launcher" {
-        bindsym s exec flameshot screen
-        bindsym f exec flameshot full
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-# Screenshot
-
-
-
-
-
-
-
+# 
 
 
 # Mode Launcher
@@ -455,7 +439,7 @@ bindsym Mod1+i exec itch
 #[M]ycli
 # Starts mariadb service if it is not running,
 # then starts mycli
-bindsym Mod1+m exec "systemctl start mariadb && alacritty -e mycli -u IAteNoodles -p CrazyxNoob@69"
+bindsym Mod1+m exec "systemctl start mariadb && alacritty -e mycli -u IAteNoodles -p"
 
 #[NU]clear
 #bindsym Mod1+u exec nuclear #Removed
