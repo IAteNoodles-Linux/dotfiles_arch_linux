@@ -439,7 +439,7 @@ bindsym Mod1+i exec itch
 #[M]ycli
 # Starts mariadb service if it is not running,
 # then starts mycli
-bindsym Mod1+m exec "systemctl start mariadb && alacritty -e mycli -u IAteNoodles -p"
+bindsym Mod1+m exec "systemctl start mariadb && alacritty -e sudo mycli"
 
 #[NU]clear
 #bindsym Mod1+u exec nuclear #Removed
