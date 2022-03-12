@@ -260,3 +260,13 @@
 20:26:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 20:26:10 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Polish_Cow.mp3
 20:26:10 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+20:30:00 [info] [ffmpegdecoder] finished decoding.
+20:30:02 [info] [GaplessTransport] stop
+20:30:02 [info] [Player] new instance created
+20:30:02 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/________.mp3
+20:30:02 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/________.mp3
+20:30:02 [info] [ffmpegdecoder] parsing data stream...
+20:30:02 [info] [ffmpegdecoder] found audio stream!
+20:30:02 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:30:02 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/________.mp3
+20:30:02 [warning] [ffmpegdecoder] invalid packet detected, discarding.
