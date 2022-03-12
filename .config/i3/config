@@ -421,6 +421,9 @@ client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
 #}
 # Trying keybindings instead.
 
+#[S]creenshot
+bindsym Mod1+S exec flameshot screen
+
 #[F]irefox 
 bindsym Mod1+f exec firefox
 
@@ -436,10 +439,9 @@ bindsym Mod1+r exec "alacritty -e env COLUMNS= LINES= ranger"
 #[I]tch
 bindsym Mod1+i exec itch
 
-#[M]ycli
-# Starts mariadb service if it is not running,
-# then starts mycli
-bindsym Mod1+m exec "systemctl start mariadb && mycli -u IAteNoodles -p MYSQL_PASSWORD"
+#Removed mycli as I wasn't using it much
+
+
 #[NU]clear
 #bindsym Mod1+u exec nuclear #Removed
 
