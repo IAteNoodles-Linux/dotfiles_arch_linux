@@ -446,7 +446,7 @@ bindsym Mod1+k exec kotogram-desktop
 
 #[MU]sikcube
 #The music player
-bindsym $mod+Mod1+m exec musikcube
+bindsym $mod+Mod1+m exec "alacritty -e musikcube"
 
 #[W]hatscli
 #The whatsapp client
