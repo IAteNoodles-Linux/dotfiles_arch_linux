@@ -138,3 +138,105 @@
 19:41:53 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
 19:41:53 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Seven_Nation_Army.mp3
 19:41:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:45:15 [info] [ffmpegdecoder] finished decoding.
+19:45:18 [info] [GaplessTransport] stop
+19:45:18 [info] [Player] new instance created
+19:45:18 [info] [Stream] opening /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+19:45:18 [info] [LocalFileStream] opening file: /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+19:45:18 [info] [ffmpegdecoder] parsing data stream...
+19:45:18 [info] [ffmpegdecoder] found audio stream!
+19:45:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+19:45:18 [info] [Streams] found a decoder for /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+19:45:18 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:49:08 [info] [ffmpegdecoder] finished decoding.
+19:49:10 [info] [GaplessTransport] stop
+19:49:10 [info] [Player] new instance created
+19:49:10 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Blue__Da_Ba_Dee__-_Piano_Instrumental__Live_.mp3
+19:49:10 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Blue__Da_Ba_Dee__-_Piano_Instrumental__Live_.mp3
+19:49:10 [info] [ffmpegdecoder] parsing data stream...
+19:49:10 [info] [ffmpegdecoder] found audio stream!
+19:49:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+19:49:10 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Blue__Da_Ba_Dee__-_Piano_Instrumental__Live_.mp3
+19:49:10 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:52:50 [info] [ffmpegdecoder] finished decoding.
+19:52:52 [info] [GaplessTransport] stop
+19:52:53 [info] [Player] new instance created
+19:52:53 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Somebody_That_I_Used_To_Know.mp3
+19:52:53 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Somebody_That_I_Used_To_Know.mp3
+19:52:53 [info] [ffmpegdecoder] parsing data stream...
+19:52:53 [info] [ffmpegdecoder] found audio stream!
+19:52:53 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+19:52:53 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Somebody_That_I_Used_To_Know.mp3
+19:52:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:56:44 [info] [ffmpegdecoder] finished decoding.
+19:56:46 [info] [GaplessTransport] stop
+19:56:47 [info] [Player] new instance created
+19:56:47 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Unravel__Tokyo_Ghoul__-__slowed_reverb_.mp3
+19:56:47 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Unravel__Tokyo_Ghoul__-__slowed_reverb_.mp3
+19:56:47 [info] [ffmpegdecoder] parsing data stream...
+19:56:47 [info] [ffmpegdecoder] found audio stream!
+19:56:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+19:56:47 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Unravel__Tokyo_Ghoul__-__slowed_reverb_.mp3
+19:56:47 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+20:00:49 [info] [ffmpegdecoder] finished decoding.
+20:00:51 [info] [GaplessTransport] stop
+20:00:52 [info] [Player] new instance created
+20:00:52 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Cinderella__From__Komi_Can_t_Communicate__.mp3
+20:00:52 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Cinderella__From__Komi_Can_t_Communicate__.mp3
+20:00:52 [info] [ffmpegdecoder] parsing data stream...
+20:00:52 [info] [ffmpegdecoder] found audio stream!
+20:00:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:00:52 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Cinderella__From__Komi_Can_t_Communicate__.mp3
+20:00:52 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+20:02:47 [info] [ffmpegdecoder] finished decoding.
+20:02:50 [info] [GaplessTransport] stop
+20:02:50 [info] [Player] new instance created
+20:02:50 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+20:02:50 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+20:02:50 [info] [ffmpegdecoder] parsing data stream...
+20:02:50 [info] [ffmpegdecoder] found audio stream!
+20:02:50 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:02:50 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Blue_Bird_Lofi.mp3
+20:02:50 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+20:04:27 [info] [ffmpegdecoder] finished decoding.
+20:04:30 [info] [GaplessTransport] stop
+20:04:30 [info] [Player] new instance created
+20:04:30 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
+20:04:30 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
+20:04:30 [info] [ffmpegdecoder] parsing data stream...
+20:04:30 [info] [ffmpegdecoder] found audio stream!
+20:04:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:04:30 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Dumb_Ways_to_Die.mp3
+20:04:30 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+20:07:10 [info] [ffmpegdecoder] finished decoding.
+20:07:12 [info] [GaplessTransport] stop
+20:07:12 [info] [Player] new instance created
+20:07:12 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Rasputin.mp3
+20:07:12 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Rasputin.mp3
+20:07:12 [info] [ffmpegdecoder] parsing data stream...
+20:07:12 [info] [ffmpegdecoder] found audio stream!
+20:07:12 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:07:12 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Rasputin.mp3
+20:07:12 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+20:09:50 [info] [GaplessTransport] pause
+20:16:55 [info] [GaplessTransport] resume
+20:17:15 [info] [ffmpegdecoder] finished decoding.
+20:17:17 [info] [GaplessTransport] stop
+20:17:17 [info] [Player] new instance created
+20:17:17 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Help_Me.mp3
+20:17:17 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Help_Me.mp3
+20:17:17 [info] [ffmpegdecoder] parsing data stream...
+20:17:17 [info] [ffmpegdecoder] found audio stream!
+20:17:17 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:17:17 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Help_Me.mp3
+20:17:17 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+20:20:21 [info] [ffmpegdecoder] finished decoding.
+20:20:23 [info] [GaplessTransport] stop
+20:20:23 [info] [Player] new instance created
+20:20:23 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/my_war_but_it_s_lofi__attack_on_titan_.mp3
+20:20:23 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/my_war_but_it_s_lofi__attack_on_titan_.mp3
+20:20:23 [info] [ffmpegdecoder] parsing data stream...
+20:20:23 [info] [ffmpegdecoder] found audio stream!
+20:20:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+20:20:23 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/my_war_but_it_s_lofi__attack_on_titan_.mp3
+20:20:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.

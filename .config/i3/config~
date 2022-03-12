@@ -442,7 +442,11 @@ bindsym Mod1+m exec "systemctl start mariadb && alacritty -e mycli -u IAteNoodle
 
 #[K]otogram
 #The telegram client
-bindsym Mod1+k exec kotogram-desktop
+#bindsym Mod1+k exec kotogram-desktop #Removed
+
+#[T]elegram-desktop
+#The telegram client.
+bindsym Mod1+t exec telegram-desktop 
 
 #[MU]sikcube
 #The music player
