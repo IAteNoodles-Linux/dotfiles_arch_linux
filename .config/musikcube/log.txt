@@ -1,13 +1,77 @@
-09:30:09 [info] [LOG SESSION] ---------- START ----------
-09:30:09 [info] [PluginFactory] loading plugins
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-09:30:09 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+15:18:13 [info] [LOG SESSION] ---------- START ----------
+15:18:13 [info] [PluginFactory] loading plugins
+15:18:13 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+15:18:13 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+15:18:13 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+15:18:14 [info] [Indexer] indexer source -1303229654 running...
+15:18:14 [info] [Indexer] indexer source -1303229654 finished
+15:18:14 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
+15:18:14 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
+15:18:14 [info] [Indexer] scan completed successfully
+15:18:14 [info] [Indexer] cleanup 1/2
+15:18:14 [info] [Indexer] cleanup 2/2
+15:18:14 [info] [Indexer] optimizing
+15:18:14 [info] [Indexer] done!
+15:18:14 [info] [GaplessTransport] starting track at /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
+15:18:14 [info] [Player] new instance created
+15:18:14 [info] [GaplessTransport] stop
+15:18:14 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
+15:18:14 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
+15:18:14 [info] [ffmpegdecoder] parsing data stream...
+15:18:14 [info] [ffmpegdecoder] found audio stream!
+15:18:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:18:14 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
+15:18:14 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:18:33 [info] [Indexer] indexer source -1303229654 running...
+15:18:33 [info] [Indexer] indexer source -1303229654 finished
+15:18:33 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
+15:18:33 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
+15:18:33 [info] [Indexer] scanning /home/nuub/Songs/
+15:18:33 [info] [Indexer] scan completed successfully
+15:18:33 [info] [Indexer] cleanup 1/2
+15:18:33 [info] [Indexer] cleanup 2/2
+15:18:33 [info] [Indexer] optimizing
+15:18:33 [info] [Indexer] done!
+15:18:46 [info] [GaplessTransport] starting track at /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:46 [info] [Player] new instance created
+15:18:46 [info] [Stream] opening /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:46 [info] [LocalFileStream] opening file: /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:46 [info] [ffmpegdecoder] parsing data stream...
+15:18:46 [info] [GaplessTransport] stop
+15:18:46 [info] [ffmpegdecoder] found audio stream!
+15:18:46 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:18:46 [info] [Streams] found a decoder for /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:46 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:18:47 [info] [Player] new instance created
+15:18:47 [info] [Stream] opening /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+15:18:47 [info] [LocalFileStream] opening file: /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+15:18:47 [info] [ffmpegdecoder] parsing data stream...
+15:18:47 [info] [ffmpegdecoder] found audio stream!
+15:18:47 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+15:18:47 [info] [Streams] found a decoder for /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+15:18:47 [info] [GaplessTransport] starting track at /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:47 [info] [Player] new instance created
+15:18:47 [info] [GaplessTransport] stop
+15:18:47 [info] [Stream] opening /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:47 [info] [LocalFileStream] opening file: /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:47 [info] [ffmpegdecoder] parsing data stream...
+15:18:47 [info] [ffmpegdecoder] found audio stream!
+15:18:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:18:47 [info] [Streams] found a decoder for /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+15:18:47 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:18:48 [info] [Player] new instance created
+15:18:48 [info] [Stream] opening /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+15:18:48 [info] [LocalFileStream] opening file: /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+15:18:48 [info] [ffmpegdecoder] parsing data stream...
+15:18:48 [info] [ffmpegdecoder] found audio stream!
+15:18:48 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+15:18:48 [info] [Streams] found a decoder for /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+15:19:34 [info] [GaplessTransport] stop
