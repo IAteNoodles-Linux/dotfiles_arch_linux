@@ -1,77 +1,125 @@
-15:18:13 [info] [LOG SESSION] ---------- START ----------
-15:18:13 [info] [PluginFactory] loading plugins
-15:18:13 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
-15:18:13 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
-15:18:13 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
-15:18:14 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
-15:18:14 [info] [Indexer] indexer source -1303229654 running...
-15:18:14 [info] [Indexer] indexer source -1303229654 finished
-15:18:14 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
-15:18:14 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
-15:18:14 [info] [Indexer] scan completed successfully
-15:18:14 [info] [Indexer] cleanup 1/2
-15:18:14 [info] [Indexer] cleanup 2/2
-15:18:14 [info] [Indexer] optimizing
-15:18:14 [info] [Indexer] done!
-15:18:14 [info] [GaplessTransport] starting track at /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-15:18:14 [info] [Player] new instance created
-15:18:14 [info] [GaplessTransport] stop
-15:18:14 [info] [Stream] opening /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-15:18:14 [info] [LocalFileStream] opening file: /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-15:18:14 [info] [ffmpegdecoder] parsing data stream...
-15:18:14 [info] [ffmpegdecoder] found audio stream!
-15:18:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-15:18:14 [info] [Streams] found a decoder for /home/nuub/SpotiFlyer/Playlists/Temp/Karma.mp3
-15:18:14 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-15:18:33 [info] [Indexer] indexer source -1303229654 running...
-15:18:33 [info] [Indexer] indexer source -1303229654 finished
-15:18:33 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
-15:18:33 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
-15:18:33 [info] [Indexer] scanning /home/nuub/Songs/
-15:18:33 [info] [Indexer] scan completed successfully
-15:18:33 [info] [Indexer] cleanup 1/2
-15:18:33 [info] [Indexer] cleanup 2/2
-15:18:33 [info] [Indexer] optimizing
-15:18:33 [info] [Indexer] done!
-15:18:46 [info] [GaplessTransport] starting track at /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:46 [info] [Player] new instance created
-15:18:46 [info] [Stream] opening /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:46 [info] [LocalFileStream] opening file: /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:46 [info] [ffmpegdecoder] parsing data stream...
-15:18:46 [info] [GaplessTransport] stop
-15:18:46 [info] [ffmpegdecoder] found audio stream!
-15:18:46 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-15:18:46 [info] [Streams] found a decoder for /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:46 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-15:18:47 [info] [Player] new instance created
-15:18:47 [info] [Stream] opening /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
-15:18:47 [info] [LocalFileStream] opening file: /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
-15:18:47 [info] [ffmpegdecoder] parsing data stream...
-15:18:47 [info] [ffmpegdecoder] found audio stream!
-15:18:47 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
-15:18:47 [info] [Streams] found a decoder for /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
-15:18:47 [info] [GaplessTransport] starting track at /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:47 [info] [Player] new instance created
-15:18:47 [info] [GaplessTransport] stop
-15:18:47 [info] [Stream] opening /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:47 [info] [LocalFileStream] opening file: /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:47 [info] [ffmpegdecoder] parsing data stream...
-15:18:47 [info] [ffmpegdecoder] found audio stream!
-15:18:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-15:18:47 [info] [Streams] found a decoder for /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
-15:18:47 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-15:18:48 [info] [Player] new instance created
-15:18:48 [info] [Stream] opening /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
-15:18:48 [info] [LocalFileStream] opening file: /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
-15:18:48 [info] [ffmpegdecoder] parsing data stream...
-15:18:48 [info] [ffmpegdecoder] found audio stream!
-15:18:48 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
-15:18:48 [info] [Streams] found a decoder for /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
-15:19:34 [info] [GaplessTransport] stop
+12:53:56 [info] [LOG SESSION] ---------- START ----------
+12:53:56 [info] [PluginFactory] loading plugins
+12:53:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+12:53:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+12:53:56 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+12:53:57 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+12:53:57 [info] [Indexer] indexer source -1303229654 running...
+12:53:57 [info] [Indexer] indexer source -1303229654 finished
+12:53:57 [info] [Indexer] scanning /home/nuub/Music/4K Video to MP3/
+12:53:57 [info] [Indexer] scanning /home/nuub/SpotiFlyer/
+12:53:57 [info] [Indexer] scanning /home/nuub/Songs/
+12:53:57 [info] [GaplessTransport] starting track at /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+12:53:57 [info] [Player] new instance created
+12:53:57 [info] [GaplessTransport] stop
+12:53:57 [info] [Stream] opening /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+12:53:57 [info] [LocalFileStream] opening file: /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+12:53:57 [info] [ffmpegdecoder] parsing data stream...
+12:53:57 [info] [ffmpegdecoder] found audio stream!
+12:53:57 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+12:53:57 [info] [Streams] found a decoder for /home/nuub/Music/4K Video to MP3/The Little Things In Life (original song - chords in description)-0b1_GfykrtA.mp3
+12:53:57 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+12:53:57 [info] [Indexer] scan completed successfully
+12:53:57 [info] [Indexer] cleanup 1/2
+12:53:57 [info] [Indexer] cleanup 2/2
+12:53:57 [info] [Indexer] optimizing
+12:53:57 [info] [Indexer] done!
+12:54:48 [info] [GaplessTransport] pause
+12:54:51 [info] [GaplessTransport] resume
+12:54:51 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+12:54:51 [info] [Player] new instance created
+12:54:51 [info] [Stream] opening /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+12:54:51 [info] [LocalFileStream] opening file: /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+12:54:51 [info] [ffmpegdecoder] parsing data stream...
+12:54:51 [info] [ffmpegdecoder] found audio stream!
+12:54:51 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:54:51 [info] [Streams] found a decoder for /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+12:56:00 [info] [GaplessTransport] starting track at /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+12:56:00 [info] [Player] new instance created
+12:56:00 [info] [GaplessTransport] stop
+12:56:00 [info] [Stream] opening /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+12:56:00 [info] [LocalFileStream] opening file: /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+12:56:00 [info] [ffmpegdecoder] parsing data stream...
+12:56:00 [info] [ffmpegdecoder] found audio stream!
+12:56:00 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:56:00 [info] [Streams] found a decoder for /home/nuub/Songs/zzz - Anime on Piano/Best of zzz - Anime on Piano, Vol. 2/05 Kamado Tanjirou no Uta (From _Demon Slayer_) [Piano Arrangement].m4a
+12:56:00 [info] [Player] new instance created
+12:56:00 [info] [Stream] opening /home/nuub/Songs/Mewsic/Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) [English]/01 Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) - English.m4a
+12:56:00 [info] [LocalFileStream] opening file: /home/nuub/Songs/Mewsic/Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) [English]/01 Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) - English.m4a
+12:56:00 [info] [ffmpegdecoder] parsing data stream...
+12:56:00 [info] [ffmpegdecoder] found audio stream!
+12:56:00 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:56:00 [info] [Streams] found a decoder for /home/nuub/Songs/Mewsic/Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) [English]/01 Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) - English.m4a
+12:56:01 [info] [GaplessTransport] starting track at /home/nuub/Songs/Mewsic/Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) [English]/01 Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) - English.m4a
+12:56:01 [info] [Player] new instance created
+12:56:01 [info] [GaplessTransport] stop
+12:56:01 [info] [Stream] opening /home/nuub/Songs/Mewsic/Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) [English]/01 Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) - English.m4a
+12:56:01 [info] [LocalFileStream] opening file: /home/nuub/Songs/Mewsic/Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) [English]/01 Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) - English.m4a
+12:56:01 [info] [ffmpegdecoder] parsing data stream...
+12:56:01 [info] [ffmpegdecoder] found audio stream!
+12:56:01 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:56:01 [info] [Streams] found a decoder for /home/nuub/Songs/Mewsic/Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) [English]/01 Fluorite Eye's Song (From _Vivy_ Fluorite Eye's Song_) - English.m4a
+12:56:01 [info] [Player] new instance created
+12:56:01 [info] [Stream] opening /home/nuub/Songs/Noise Matters/Heavy Thunder And Soothing Noise/01 Heavy Thunder And Soothing Noise Seamless.m4a
+12:56:01 [info] [LocalFileStream] opening file: /home/nuub/Songs/Noise Matters/Heavy Thunder And Soothing Noise/01 Heavy Thunder And Soothing Noise Seamless.m4a
+12:56:01 [info] [ffmpegdecoder] parsing data stream...
+12:56:01 [info] [ffmpegdecoder] found audio stream!
+12:56:01 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:56:01 [info] [Streams] found a decoder for /home/nuub/Songs/Noise Matters/Heavy Thunder And Soothing Noise/01 Heavy Thunder And Soothing Noise Seamless.m4a
+12:56:06 [info] [GaplessTransport] starting track at /home/nuub/Songs/Noise Matters/Heavy Thunder And Soothing Noise/01 Heavy Thunder And Soothing Noise Seamless.m4a
+12:56:06 [info] [Player] new instance created
+12:56:06 [info] [GaplessTransport] stop
+12:56:06 [info] [Stream] opening /home/nuub/Songs/Noise Matters/Heavy Thunder And Soothing Noise/01 Heavy Thunder And Soothing Noise Seamless.m4a
+12:56:06 [info] [LocalFileStream] opening file: /home/nuub/Songs/Noise Matters/Heavy Thunder And Soothing Noise/01 Heavy Thunder And Soothing Noise Seamless.m4a
+12:56:06 [info] [ffmpegdecoder] parsing data stream...
+12:56:06 [info] [ffmpegdecoder] found audio stream!
+12:56:06 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:56:06 [info] [Streams] found a decoder for /home/nuub/Songs/Noise Matters/Heavy Thunder And Soothing Noise/01 Heavy Thunder And Soothing Noise Seamless.m4a
+12:56:07 [info] [Player] new instance created
+12:56:07 [info] [Stream] opening /home/nuub/Songs/Rainych/Tiny Little Adiantum - Omae wa Mou/01 Tiny Little Adiantum - Omae wa Mou.m4a
+12:56:07 [info] [LocalFileStream] opening file: /home/nuub/Songs/Rainych/Tiny Little Adiantum - Omae wa Mou/01 Tiny Little Adiantum - Omae wa Mou.m4a
+12:56:07 [info] [ffmpegdecoder] parsing data stream...
+12:56:07 [info] [ffmpegdecoder] found audio stream!
+12:56:07 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:56:07 [info] [Streams] found a decoder for /home/nuub/Songs/Rainych/Tiny Little Adiantum - Omae wa Mou/01 Tiny Little Adiantum - Omae wa Mou.m4a
+12:56:38 [info] [GaplessTransport] pause
+12:57:29 [info] [GaplessTransport] starting track at /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:29 [info] [Player] new instance created
+12:57:29 [info] [GaplessTransport] stop
+12:57:29 [info] [Stream] opening /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:29 [info] [LocalFileStream] opening file: /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:29 [info] [ffmpegdecoder] parsing data stream...
+12:57:29 [info] [ffmpegdecoder] found audio stream!
+12:57:29 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:57:29 [info] [Streams] found a decoder for /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:29 [info] [Player] new instance created
+12:57:29 [info] [Stream] opening /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:29 [info] [LocalFileStream] opening file: /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:29 [info] [ffmpegdecoder] parsing data stream...
+12:57:29 [info] [ffmpegdecoder] found audio stream!
+12:57:29 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:57:29 [info] [Streams] found a decoder for /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:48 [info] [GaplessTransport] starting track at /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:48 [info] [Player] new instance created
+12:57:48 [info] [GaplessTransport] stop
+12:57:48 [info] [Stream] opening /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:48 [info] [LocalFileStream] opening file: /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:48 [info] [ffmpegdecoder] parsing data stream...
+12:57:48 [info] [ffmpegdecoder] found audio stream!
+12:57:48 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:57:48 [info] [Streams] found a decoder for /home/nuub/Songs/Fonzi M/A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version]/01 A Cruel Angel's Thesis (From _Neon Genesis Evangelion_) [Piano Version].m4a
+12:57:49 [info] [Player] new instance created
+12:57:49 [info] [Stream] opening /home/nuub/Songs/Kensuke Ushio/A Shape of Light _A Silent Voice the Movie_ Original Soundtrack/39 lit(var).m4a
+12:57:49 [info] [LocalFileStream] opening file: /home/nuub/Songs/Kensuke Ushio/A Shape of Light _A Silent Voice the Movie_ Original Soundtrack/39 lit(var).m4a
+12:57:49 [info] [ffmpegdecoder] parsing data stream...
+12:57:49 [info] [ffmpegdecoder] found audio stream!
+12:57:49 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+12:57:49 [info] [Streams] found a decoder for /home/nuub/Songs/Kensuke Ushio/A Shape of Light _A Silent Voice the Movie_ Original Soundtrack/39 lit(var).m4a
+12:59:01 [info] [GaplessTransport] stop

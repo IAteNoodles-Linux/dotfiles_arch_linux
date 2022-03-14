@@ -36,7 +36,7 @@
   "RemoteLibraryWssPort": 7905,
   "RemoteLibraryWssTls": false,
   "RemoveMissingFiles": true,
-  "ResumePlaybackOnStartup": false,
+  "ResumePlaybackOnStartup": true,
   "SaveSessionOnExit": true,
   "StartMinimized": false,
   "SyncOnStartup": true,

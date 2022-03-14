@@ -3,12 +3,12 @@ AlsaOut::AlsaOut() called
 AlsaOut: destructor
 AlsaOut: joining...
 AlsaOut: thread finished
-AlsaOut: closing device...
+[2022-03-14 12:53:57] [info] asio async_connect error: system:111 (Connection refused)
+[2022-03-14 12:53:57] [info] Error getting remote endpoint: system:107 (Transport endpoint is not connected)
+[2022-03-14 12:53:57] [AlsaOut: closing device...
+error] handle_connect error: Underlying Transport Error
 AlsaOut: destroyed.
-[2022-03-13 15:18:14] [info] asio async_connect error: system:111 (Connection refused)
-[2022-03-13 15:18:14] [info] Error getting remote endpoint: system:107 (Transport endpoint is not connected)
-[2022-03-13 15:18:14] [error] handle_connect error: Underlying Transport Error
-[mp3float @ 0x7f9734040680] Could not update timestamps for skipped samples.
+[mp3float @ 0x7f7a880111c0] Could not update timestamps for skipped samples.
 PulseOut::PulseOut() called
 AlsaOut::AlsaOut() called
 AlsaOut: destructor
@@ -27,7 +27,6 @@ PulseOut: destroy
 PulseOut: destructor
 PulseOut: destroy
 PulseOut: destructor
-[mp3float @ 0x7f9740009c40] Could not update timestamps for skipped samples.
 PulseOut: opening device 
 pulse_blocking_stream: CHECK_VALIDITY server
 pulse_blocking_stream: CHECK_VALIDITY dir
@@ -36,16 +35,110 @@ pulse_blocking_stream: CHECK_VALIDITY spec
 pulse_blocking_stream: CHECK_VALIDITY channel map
 pulse_blocking_stream: context is ready
 pulse_blocking_stream: stream is ready
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f97200020c0] stream 0, timescale not set
-[aac @ 0x7f972005a7c0] Multiple frames in a packet.
-[aac @ 0x7f972005a7c0] Pulse tool not allowed in eight short sequence.
-[aac @ 0x7f972005a7c0] Could not update timestamps for skipped samples.
-[mp3float @ 0x7f972801cd00] Could not update timestamps for skipped samples.
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f97400381c0] stream 0, timescale not set
-[aac @ 0x7f9740027200] Multiple frames in a packet.
-[aac @ 0x7f9740027200] Pulse tool not allowed in eight short sequence.
-[aac @ 0x7f9740027200] Could not update timestamps for skipped samples.
-[2022-03-13 15:19:34] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7aac004ac0] stream 0, timescale not set
+[aac @ 0x7f7aac05c680] Multiple frames in a packet.
+[aac @ 0x7f7aac05c680] Pulse tool not allowed in eight short sequence.
+[aac @ 0x7f7aac05c680] Could not update timestamps for skipped samples.
+PulseOut::PulseOut() called
+AlsaOut::AlsaOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut::PulseOut() called
+AlsaOut::AlsaOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: destroy
+PulseOut: destructor
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7aac008300] stream 0, timescale not set
+[aac @ 0x7f7aac02eb80] Multiple frames in a packet.
+[aac @ 0x7f7aac02eb80] Pulse tool not allowed in eight short sequence.
+[aac @ 0x7f7aac02eb80] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7a8802d180] stream 0, timescale not set
+[aac @ 0x7f7a88025c40] Multiple frames in a packet.
+[aac @ 0x7f7a88025c40] Gain control is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x7f7a88025c40] channel element 0.0 is not allocated
+[aac @ 0x7f7a88025c40] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7a840054c0] stream 0, timescale not set
+[aac @ 0x7f7a8401b180] Multiple frames in a packet.
+[aac @ 0x7f7a8401b180] Gain control is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x7f7a8401b180] channel element 0.0 is not allocated
+[aac @ 0x7f7a8401b180] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7aac007c40] stream 0, timescale not set
+[aac @ 0x7f7aac012ac0] Multiple frames in a packet.
+[aac @ 0x7f7aac012ac0] Pulse tool not allowed in eight short sequence.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7a88000900] stream 0, timescale not set
+[aac @ 0x7f7a88015d40] Multiple frames in a packet.
+[aac @ 0x7f7a88015d40] Pulse tool not allowed in eight short sequence.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7aac007780] stream 0, timescale not set
+[aac @ 0x7f7aac0767c0] Multiple frames in a packet.
+[aac @ 0x7f7aac0767c0] Pulse tool not allowed in eight short sequence.
+[aac @ 0x7f7aac0767c0] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7a84007380] stream 0, timescale not set
+[aac @ 0x7f7a8400b1c0] Multiple frames in a packet.
+[aac @ 0x7f7a8400b1c0] Gain control is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x7f7a8400b1c0] channel element 0.0 is not allocated
+[aac @ 0x7f7a8400b1c0] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7a88003e00] stream 0, timescale not set
+[aac @ 0x7f7a88021a80] Multiple frames in a packet.
+[aac @ 0x7f7a88021a80] Gain control is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x7f7a88021a80] channel element 0.0 is not allocated
+[aac @ 0x7f7a88021a80] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7aac007b80] stream 0, timescale not set
+[aac @ 0x7f7aac07dd40] Multiple frames in a packet.
+[aac @ 0x7f7aac07dd40] Gain control is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f7a84006700] stream 0, timescale not set
+[aac @ 0x7f7a84007940] Multiple frames in a packet.
+[aac @ 0x7f7a84007940] Gain control is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x7f7a84007940] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+[aac @ 0x7f7aac07dd40] channel element 0.0 is not allocated
+PulseOut::PulseOut() called
+AlsaOut::AlsaOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut::PulseOut() called
+AlsaOut::AlsaOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: destroy
+PulseOut: destructor
+[2022-03-14 12:59:01] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
 PulseOut: destroy
 PulseOut: destructor
 PulseOut: closing device
